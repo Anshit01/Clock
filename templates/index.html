@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clock</title>
+        <style>
+            body {
+                background-color: #3498db;
+            }
+            #title {
+                text-align: center;
+                margin: 10pt;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            }
+
+            #date {
+                text-align: center;
+                font-size: xx-large;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+            #time {
+                text-align: center;
+                font-size: xx-large;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div id='main'>
+            <h1 id='title'>Clock</h1>
+            <br>
+            <p id='date'>{{date}} / {{month}} / {{year}}</p>
+            <p id='time'>{{hour}}:{{minute}}</p>
+        </div>
+    </body>
+</html>
